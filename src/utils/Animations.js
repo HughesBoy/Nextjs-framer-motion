@@ -12,3 +12,27 @@ export const riseAndFade = {
     },
   },
 }
+
+export const staggerChildren = {
+  animate: {
+    transition: {
+      delayChildren: 0.4,
+      staggerChildren: 0.1,
+    }
+  }
+}
+
+export const animateSpan = {
+  initial: {
+    y: 100,
+    opacity: 0,
+  },
+  animate: {
+   y: 0,
+   opacity: 1,
+    transition: {
+      delayChildren: 0.4,
+      staggerChildren: 0.1,
+    },
+  },
+}
