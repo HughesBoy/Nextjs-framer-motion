@@ -3,7 +3,7 @@
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { motion } from 'framer-motion'
-import { riseAndFade, staggerChildren, animateSpan } from "@/utils/Animations";
+import { riseAndFade, staggerChildren, animateSpan, animatedVideo } from "@/utils/Animations";
 
 export default function Home() {
   return (
@@ -23,7 +23,9 @@ export default function Home() {
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout.{" "}
         </motion.div>
+        
       </main>
+      <motion.div className="box" variants={animatedVideo}>edgre</motion.div>
     </motion.div>
   );
 }

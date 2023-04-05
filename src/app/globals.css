@@ -8,3 +8,9 @@
   display: flex;
   align-items: center;
 } */
+
+.box{
+  border: 1px solid black;
+  height: 600px;
+  
+}
