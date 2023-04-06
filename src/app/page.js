@@ -26,6 +26,10 @@ export default function Home() {
         
       </main>
       <motion.div className="box" variants={animatedVideo}>edgre</motion.div>
+      
+      {/* <motion.video autoPlay loop mute playsInline variants={animatedVideo}>
+        <source src="/assets/vid.mp4" type="video/mp4" />
+      </motion.video> */}
     </motion.div>
   );
 }
