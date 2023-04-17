@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { motion } from 'framer-motion'
 import { riseAndFade, staggerChildren, animateSpan, animatedVideo } from "@/utils/Animations";
+import Textblock from "@/components/Textblock";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       {/* <motion.video autoPlay loop mute playsInline variants={animatedVideo}>
         <source src="/assets/vid.mp4" type="video/mp4" />
       </motion.video> */}
+      <Textblock headingText="header text" bodyText="this is the body text" />
     </motion.div>
   );
 }
