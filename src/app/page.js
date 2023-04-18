@@ -9,7 +9,7 @@ import Textblock from "@/components/Textblock";
 export default function Home() {
   return (
     <motion.div initial="initial" animate="animate">
-      <Navbar />
+     
       <main className="grid grid-cols-[3fr_1fr] py-12">
         <motion.div variants={staggerChildren} className="text-8xl font-bold w-[40rem] leading-[90%] tracking-[-2px]">
           {/* <AnimatedText titleText="VAYGAR" /> */}
@@ -32,6 +32,9 @@ export default function Home() {
         <source src="/assets/vid.mp4" type="video/mp4" />
       </motion.video> */}
       <Textblock headingText="header text" bodyText="this is the body text" />
+      <p>
+        <span>s</span>
+      </p>
     </motion.div>
   );
 }
