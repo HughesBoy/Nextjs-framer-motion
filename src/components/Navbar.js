@@ -14,6 +14,9 @@ const Navbar = () => {
       <div className="nav-item">
         <Link href={'/animations'}>animations</Link>
       </div>
+      <div className="nav-item">
+        <Link href={'/users'}>users(Server component fetch)</Link>
+      </div>
     </div>
   )
 }
