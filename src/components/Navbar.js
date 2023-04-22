@@ -15,7 +15,10 @@ const Navbar = () => {
         <Link href={'/animations'}>animations</Link>
       </div>
       <div className="nav-item">
-        <Link href={'/users'}>users(Server component fetch)</Link>
+        <Link href={'/repos'}>users(Server component fetch)</Link>
+      </div>
+      <div className="nav-item">
+        <Link href={'/people'}>peopleServer component fetch)</Link>
       </div>
     </div>
   )

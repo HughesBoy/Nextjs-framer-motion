@@ -1,10 +1,10 @@
 "use client"
 
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 import { motion } from 'framer-motion'
 import { riseAndFade, staggerChildren, animateSpan, animatedVideo } from "@/utils/Animations";
 import Textblock from "@/components/Textblock";
+import PeoplePage from "./people/page";
 
 export default function Home() {
   return (
@@ -35,6 +35,7 @@ export default function Home() {
       <p>
         <span>s</span>
       </p>
+      
     </motion.div>
   );
 }
