@@ -3,8 +3,9 @@ import React from 'react'
 async function GetPeople(){
   const res = await fetch(`https://swapi.dev/api/people`);
   
-
+ 
   const people = await res.json();
+
   return people.results;
 }
 

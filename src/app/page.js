@@ -2,7 +2,7 @@
 
 import "./globals.css";
 import { motion } from 'framer-motion'
-import { riseAndFade, staggerChildren, animateSpan, animatedVideo } from "@/utils/Animations";
+import { riseAndFade, staggerChildren, animateSpan, animatedVideo, fadeIn } from "@/utils/Animations";
 import Textblock from "@/components/Textblock";
 import PeoplePage from "./people/page";
 
@@ -36,6 +36,17 @@ export default function Home() {
         <span>s</span>
       </p>
       
+      <motion.div className="rectangle" variants={fadeIn}>
+        
+          <motion.span className="big-text">s</motion.span>
+          <motion.span className="big-text">s</motion.span>
+          <motion.span className="big-text">s</motion.span>
+          <motion.span className="big-text">s</motion.span>
+          <motion.span className="big-text">s</motion.span>
+          <motion.span className="big-text">s</motion.span>
+       
+      </motion.div>
+
     </motion.div>
   );
 }

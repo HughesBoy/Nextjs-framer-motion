@@ -20,6 +20,9 @@ const Navbar = () => {
       <div className="nav-item">
         <Link href={'/people'}>peopleServer component fetch)</Link>
       </div>
+      <div className="nav-item">
+        <Link href={'/employees'}>employeesClient fetch)</Link>
+      </div>
     </div>
   )
 }
